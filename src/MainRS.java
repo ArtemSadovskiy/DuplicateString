@@ -33,10 +33,9 @@ public class MainRS {
             matcher = pattern.matcher(strResult);
         }
 
-        if (strResult.matches("^[a-zA-Z]+$")){
+        if (strResult.matches("^[a-zA-Z]+$")) {
             return strResult;
-        }
-        else {
+        } else {
             return "invalid string";
         }
     }
